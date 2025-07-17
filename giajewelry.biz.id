@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gia Jewelry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      color: #D4AF37;
+      font-size: 2.5em;
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #D4AF37;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border: 2px solid #D4AF37;
+      border-radius: 10px;
+    }
+    .cta {
+      margin-top: 30px;
+    }
+    .cta a {
+      background-color: #D4AF37;
+      color: #111;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #000;
+      color: #777;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gia Jewelry</h1>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#gallery">Koleksi</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>  <section class="hero">
+    <h2 style="color: #D4AF37; font-size: 1.8em;">Elegance in Every Sparkle</h2>
+    <p>Perhiasan emas & berlian yang memancarkan keanggunan dan kekuatan wanita.</p>
+  </section>  <section id="about" class="about">
+    <h2 style="color: #D4AF37;">Tentang Kami</h
